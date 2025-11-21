@@ -80,8 +80,8 @@ st.set_page_config(
 )
 
 # Définir l'image de fond
-#image_path = os.path.join("images", "Structure.jpg")
-image_path = os.path.abspath(os.path.join("images", "Structure.jpg"))
+image_path = os.path.join("images", "Structure.jpg")
+#image_path = os.path.abspath(os.path.join("images", "Structure.jpg"))
 if os.path.exists(image_path):
     set_background_image(image_path)
 
@@ -2383,3 +2383,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
