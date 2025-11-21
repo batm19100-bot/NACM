@@ -1,27 +1,8 @@
-[theme]
-base="dark"
-
-[server]
-enableXsrfProtection=false
+[ui]
+hideTopBar = true
 
 [global]
-disableWidgetStateWarnings=true
+showWarningOnDirectExecution = false
 
 [browser]
 gatherUsageStats = false
-
-[ui]
-hideTopBar = true
-
-[client]
-showErrorDetails = false
-
-[menu]
-primaryColor="#ffffff"
-
-[server]
-port = 8501
-
-[ui]
-hideSidebarNav = true
-hideTopBar = true
